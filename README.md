@@ -1,4 +1,5 @@
-===== Warehouse Menu =====
+//sample output 
+= Warehouse Menu /
 1. Add Item
 2. Remove Item
 3. Update Quantity
