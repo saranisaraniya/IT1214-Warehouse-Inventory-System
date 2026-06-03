@@ -1,3 +1,4 @@
+//Inventory file
 import java.util.HashMap;
 
 public class Inventory {
@@ -13,7 +14,7 @@ public class Inventory {
         }
     }
 
-    
+
     public void removeItem(String itemId) {
         if (items.remove(itemId) != null) {
             System.out.println("Item removed successfully!");
@@ -22,7 +23,6 @@ public class Inventory {
         }
     }
 
-    
     public void updateQuantity(String itemId, int newQty) {
         Item item = items.get(itemId);
         if (item != null) {
